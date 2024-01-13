@@ -1,0 +1,12 @@
+Psuedokod för binärsökning
+
+k = talet som ska hittas
+x = [...]
+n = ...
+    Medan <villkor>
+    <operationer>
+
+
+
+0 k: 6 x: 0 2 3 4 6 8 9 n: 7 low: 0 high: 6
+1 k: 6 x: 0 2 3 4 6 8 9 n: 7 low: 0 high: 6 mid: 
