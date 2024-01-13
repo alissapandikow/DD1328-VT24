@@ -1,7 +1,0 @@
-Psuedokod för binärsökning
-
-k = talet som ska hittas
-x = [...]
-n = ...
-    Medan <villkor>
-    <operationer>
