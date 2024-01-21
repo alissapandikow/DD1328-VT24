@@ -10,7 +10,7 @@ def binary_search(arr, low, high, target):
         mid = (low + high) // 2
 
         if arr[mid] == target:
-            return f"{target}\n{arr}\n{n}\n{mid + 1}\n"
+            print(f"{target}\n{arr}\n{n}\n{mid + 1}\n")
 
         elif target < arr[mid]:
             return binary_search(arr, low, mid - 1, target)
@@ -19,5 +19,3 @@ def binary_search(arr, low, high, target):
             return binary_search(arr, mid + 1, high, target)
 
 
-result = binary_search(x, lo, hi - 1, k)
-print(result)
